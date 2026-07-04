@@ -16,11 +16,11 @@ export default function Sidebar(){
         <a href="#play" className="text-neutral-500 hover:text-white font-mono text-xs tracking-[0.3em] -rotate-90 transition-colors uppercase whitespace-nowrap">
           Profile
         </a>
-        <a href="#synth" className="text-neutral-500 hover:text-[#6366F1] font-mono text-xs tracking-[0.3em] -rotate-90 transition-colors uppercase whitespace-nowrap">
-          Skills
-        </a>
         <a href="#experience" className="text-neutral-500 hover:text-[#6366F1] font-mono text-xs tracking-[0.3em] -rotate-90 transition-colors uppercase whitespace-nowrap">
           Log
+        </a>
+        <a href="#synth" className="text-neutral-500 hover:text-[#6366F1] font-mono text-xs tracking-[0.3em] -rotate-90 transition-colors uppercase whitespace-nowrap">
+          Skills
         </a>
         <a href="#tracks" className="text-neutral-500 hover:text-[#6366F1] font-mono text-xs tracking-[0.3em] -rotate-90 transition-colors uppercase whitespace-nowrap">
           Tracks
