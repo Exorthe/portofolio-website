@@ -4,18 +4,21 @@ import SkillKnob from '../components/SkillKnob';
 
 export default function SkillSets() {
   const skillList = [
-    { skill: 'React.js', gain: 11 },
-    { skill: 'Node & SQL', gain: 10 },
+    { skill: 'WordPress', gain: 11 },
+    { skill: 'ESP32 / Embedded IoT', gain: 11 },
+    { skill: 'React.js', gain: 10 },
+    { skill: 'Express.js', gain: 10 },
     { skill: 'Python', gain: 9 },
     { skill: 'C / C++', gain: 9 },
-    { skill: 'ESP32 / IoT', gain: 9 },
-    { skill: 'WordPress', gain: 11 },
-    { skill: 'Java / Spring', gain: 8 },
-    { skill: 'AVR Asm', gain: 8 },
-    { skill: 'Tailwind CSS', gain: 8 },
-    { skill: 'Docker / Cloud', gain: 7 },
+    { skill: 'Tailwind CSS', gain: 9 },
+    { skill: 'AVR Assembly', gain: 8 },
+    { skill: 'Docker', gain: 8 },
+    { skill: 'SQL / PostgreSQL', gain: 8 },
+    { skill: 'Vue.js', gain: 7 },
+    { skill: 'Java / Spring', gain: 7 },
+    { skill: 'Cloud / Networking', gain: 6 },
     { skill: 'Cyber Security', gain: 6 },
-    { skill: 'VHDL', gain: 4 }, // Familiar level based on CV
+    { skill: 'VHDL', gain: 4 },
   ];
 
   return (

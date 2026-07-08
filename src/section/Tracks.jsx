@@ -15,7 +15,7 @@ export default function Tracks() {
       category: 'Embedded & IoT',
       description: 'Dirancang dan dibangun sebagai sistem monitoring ruangan berbasis IoT yang mengintegrasikan ESP32-CAM dan Blynk. Meliputi perakitan perangkat keras, pengujian, debugging komunikasi inter-node, serta memungkinkan pemantauan jarak jauh melalui dasbor mobile.',
       tech: ['ESP32', 'YOLO', 'Blynk', 'Python'],
-      github: '#',
+      github: 'https://github.com/Exorthe/ProyekAkhir-IoT',
       demo: '#'
     },
     {
@@ -42,7 +42,7 @@ export default function Tracks() {
       category: 'Mobile / Backend',
       description: 'Aplikasi mobile penyewaan bus dengan front-end Android native dan backend berbasis Spring Framework. Terlibat dalam mendesain wireframes UI/UX menggunakan Figma dan berkontribusi pada logika client-side maupun server-side.',
       tech: ['Android Studio', 'Java', 'Spring', 'Figma'],
-      github: '#',
+      github: 'https://github.com/Exorthe/JBus-android',
       demo: '#'
     },
     {
@@ -51,7 +51,7 @@ export default function Tracks() {
       category: 'Hardware / Low-Level',
       description: 'Pengembangan logika sistem pemantau udara sepenuhnya menggunakan bahasa tingkat rendah AVR Assembly. Disimulasikan dan di-debug menggunakan Proteus, serta menulis ulang pustaka display I2C dari C ke AVR Assembly.',
       tech: ['Arduino Uno', 'AVR Assembly', 'Proteus', 'C'],
-      github: '#',
+      github: 'https://github.com/Exorthe/finpro-ssf2024-kelompok8',
       demo: '#'
     },
     {
@@ -60,7 +60,7 @@ export default function Tracks() {
       category: 'Cloud Infrastructure',
       description: 'Penyebaran private cloud skala kecil menggunakan Apache CloudStack dan KVM. Konfigurasi server manajemen, agent node, dan penyimpanan NFS. Menerapkan instance VM serta konfigurasi jaringan internal dan VPN.',
       tech: ['CloudStack', 'MySQL', 'NFS', 'KVM'],
-      github: '#',
+      github: 'https://github.com/Exorthe/cloudstack-install',
       demo: '#'
     },
     {
@@ -70,6 +70,24 @@ export default function Tracks() {
       description: 'Mengembangkan model klasifikasi (Naive Bayes, Random Forest, KNN, SVM) untuk menilai potensi pariwisata. Membangun, membersihkan dataset khusus, dan membandingkan akurasi model untuk menemukan pendekatan terbaik.',
       tech: ['Python', 'Scikit-Learn', 'Pandas', 'Data Mining'],
       github: '#',
+      demo: '#'
+    },
+    {
+      id: '08',
+      title: 'P2P OTA Firmware Distribution',
+      category: 'Embedded & Distributed Systems',
+      description: 'Skripsi: sistem distribusi update firmware over-the-air peer-to-peer untuk mesh network ESP32 menggunakan ESP-NOW. Arsitektur gateway-node dengan protokol biner kustom, mode seeding P2P bertingkat (sharded), staged reboot dengan ambang batas fail-rate otomatis, serta profiling CPU berbasis FreeRTOS untuk mengukur overhead proses OTA secara real-time.',
+      tech: ['ESP32', 'ESP-NOW', 'FreeRTOS', 'MQTT', 'C++', 'PlatformIO'],
+      github: 'https://github.com/Exorthe/P2P-OTA-ESP32-Gateway',
+      demo: '#'
+    },
+    {
+      id: '09',
+      title: 'NutriGuard - MBG Nutrient Analysis',
+      category: 'Fullstack & Computer Vision',
+      description: 'Proyek akhir mata kuliah Desain Proyek Teknik Komputer: sistem monitoring nutrisi berbasis AI dan IoT untuk Program Makan Bergizi Gratis (MBG). Membangun backend Express.js (MVC, JWT, PostgreSQL), dashboard analitik vendor dengan React + Vite, serta klien Raspberry Pi berbasis OpenCV untuk auto-capture foto nampan. Seluruh layanan (AI, backend, frontend) di-containerize dengan Docker Compose. Model AI (YOLOv8) dilatih oleh anggota tim lain.',
+      tech: ['Node.js', 'Express', 'React', 'PostgreSQL', 'FastAPI', 'YOLOv8', 'Docker', 'Raspberry Pi'],
+      github: 'https://github.com/Exorthe/Despro_02',
       demo: '#'
     }
   ];

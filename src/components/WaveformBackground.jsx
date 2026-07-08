@@ -36,22 +36,21 @@ export default function WaveformBackground(){
         for (let i = 0; i < numLines; i++) {
           ctx.beginPath();
 
-          // Menggunakan warna Indigo/Ethereal khas vibe Kamitsubaki/KAFU (#6366F1)
+          // Menggunakan warna Indigo/Ethereal Kamitsubaki/KAFU (#6366F1)
           const opacity = 0.15 + (i * 0.1);
           ctx.strokeStyle = `rgba(99, 102, 241, ${opacity})`;
           ctx.lineWidth = i === 0 ? 3 : 1.5; // Garis utama lebih tebal
 
           for (let x = 0; x < width; x += 3) {
-            // Kombinasi gelombang untuk memecah kekakuan (stiffness)
             // Gelombang lambat lebar
             const wave1 = Math.sin(x * 0.002 + time + (i * 0.2)) * 60;
             // Gelombang cepat medium
             const wave2 = Math.sin(x * 0.005 - time * 1.5 + (i * 0.1)) * 30;
 
-            // Gelombang "Husky" - merepresentasikan tekstur suara KAFU yang sedikit raspy/emosional
+            // Gelombang "Husky" - merepresentasikan tekstur suara KAFU yang sedikit raspy
             const huskyTexture = Math.sin(x * 0.05 + time * 3) * 3;
 
-            // Gelombang pernafasan (breathing)
+            // Gelombang "breathing"
             const wave3 = Math.sin(x * 0.001 + time * 0.5) * 40;
 
             // Damping agar pinggiran layar meredam dengan sangat halus
@@ -69,7 +68,7 @@ export default function WaveformBackground(){
           ctx.stroke();
         }
 
-        time += 0.015; // Kecepatan gelombang yang lebih lambat dan elegan
+        time += 0.015;
         animationFrameId = requestAnimationFrame(render);
       };
 
